@@ -26,32 +26,38 @@ header nav {
 header nav ul {
   display: flex;
   gap: 20px;
-  padding: right 20px;
+  padding-right: 20px;
 }
 header nav ul li {
     list-style:none;
 }
 header nav ul li a {
-    color: white;
+    color: rgb(219, 194, 194);
     text-decoration:none;
     padding: 0px 10px;
     transition: all 3s ease;
 }
 header nav ul li a:hover{
-    background-color: white;
+    background-color: rgb(232, 187, 187);
     color: blue;
     border-radius: 5px;
 }
-@media screen and (max-width:480px) {
+@media  (max-width:480px) {
     header{
         display: block;
-        background-color: rgb(126, 126, 219);
+        width: 100%;
+        display: none;
+        /* background-color: rgb(126, 126, 219); */
     }
+header nav {
+   display: block;
+    width: 100%;
+    display: none;
 }
  header nav ul{
        display: block;
-       width: 100%;
  }
  header nav ul li a{
    padding: 10px 0px;
  }
+}
