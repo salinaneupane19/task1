@@ -34,4 +34,24 @@ header nav ul li {
 header nav ul li a {
     color: white;
     text-decoration:none;
+    padding: 0px 10px;
+    transition: all 3s ease;
 }
+header nav ul li a:hover{
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+}
+@media screen and (max-width:480px) {
+    header{
+        display: block;
+        background-color: rgb(126, 126, 219);
+    }
+}
+ header nav ul{
+       display: block;
+       width: 100%;
+ }
+ header nav ul li a{
+   padding: 10px 0px;
+ }
